@@ -28,14 +28,14 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <ImageView
         android:id="@+id/createNoteButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="16dp"
-        android:src="@android:drawable/ic_input_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_apply"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
